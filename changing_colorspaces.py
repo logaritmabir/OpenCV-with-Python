@@ -2,7 +2,6 @@ import cv2 as cv
 from cv2 import imshow
 import numpy as np
 
-orange_mask = np.uint8([[[0,0,255]]])
 camera = cv.VideoCapture(0)
 
 while(1):

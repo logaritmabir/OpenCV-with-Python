@@ -15,6 +15,7 @@ cv.imshow("img_blur",img_blur)
 cv.imshow("img_median_blur",img_median_blur)
 cv.imshow("img_gaussian_blur",img_gaussian_blur)
 
+#cv.bilateralFilter() is highly effective in noise removal while keeping edges sharp.
 plt.show()
 cv.waitKey(0)
 cv.destroyAllWindows()
